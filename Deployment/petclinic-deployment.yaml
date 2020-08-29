@@ -21,6 +21,6 @@ spec:
     spec:
       containers:
         - name: petclinic-app
-          image: ashoksuryap/spring-petclinic
+          image: ashoksuryap/spring-petclinic:2.3.0.BUILD-SNAPSHOT
           ports:
             - containerPort: 80
